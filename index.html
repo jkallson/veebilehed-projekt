@@ -6,58 +6,35 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<style>
-    .carousel-control-prev-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-    }
-    
-    .carousel-control-next-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-    }
-
-    .bg {
-        /* The image used */
-        background-image: url("images/background.png");
-
-        /* Full height */
-        height: 100%;
-
-        /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    </style>
-
 <body class="bg" style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
 
     <header>
-        <div class="header" style="display: flex; justify-content: space-between">
+        <div class="header">
             <div class="header_img">
                 <a href="index.html"><img src="images/logo.png"></a>
             </div>
-            <div class="header_navbar" style="display:flex; align-items: center; float: right;">
-                <a style="margin-right: 70px; font-size:xx-large;" href="about.html">about us</a>
-                <a style="margin-right: 70px; font-size:xx-large;" href="order.html">order here</a>
-                <a style="margin-right: 70px; font-size:xx-large;" href="contact.html">contact</a>
+            <div class="header_navbar">
+                <a class="header_navbar-button" href="about.html">about us</a>
+                <a class="header_navbar-button" href="order.html">order here</a>
+                <a class="header_navbar-button" href="contact.html">contact</a>
             </div>
         </div>
     </header>
 
-    <div style="margin-top: 200px;">
-        <h1 style="font-size: 70px; text-align: center; font-weight: 400;">high-quality pillows<br> weighted blankets</h1>
+    <div class="headingcontainer">
+        <h1 class="headingcontainer_text">high-quality pillows<br> weighted blankets</h1>
     </div>
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="margin-right: 20%; margin-left: 20%; margin-top: 100px;">
-        <div class="carousel-inner" style="width: 50%; margin:auto;">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
           <div class="carousel-item active">
-            <img style="height: 400px;" class="d-block w-100" src="images/blankets/blanket1.png" alt="First slide">
+            <img class="blanketimg d-block w-100" src="images/blankets/blanket1.png" alt="First slide">
           </div>
           <div class="carousel-item">
-            <img style="height: 400px;" class="d-block w-100" src="images/blankets/blanket2.png" alt="Second slide">
+            <img class="blanketimg d-block w-100" src="images/blankets/blanket2.png" alt="Second slide">
           </div>
           <div class="carousel-item">
-            <img style="height: 400px;" class="d-block w-100" src="images/blankets/blanket3.png" alt="Third slide">
+            <img class="blanketimg d-block w-100" src="images/blankets/blanket3.png" alt="Third slide">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -71,7 +48,7 @@
       </div>
     </div>
 
-<footer style="padding-top:400px;">
+<footer class="footerpad">
     <div class="container" style="color:white;">
         <div class="row">
 

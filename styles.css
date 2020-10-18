@@ -4,3 +4,58 @@ a {
 a:hover{
     text-decoration: none;
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header_navbar {
+    display:flex;
+    align-items: center;
+    float: right;
+}
+.header_navbar-button {
+    margin-right: 70px;
+    font-size:xx-large;
+}
+.headingcontainer_text {
+    font-size: 70px;
+    text-align: center;
+    font-weight: 400;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.headingcontainer {
+    margin-top:200px;
+}
+#carouselExampleControls {
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+.carousel-inner {
+    width: 50%; 
+    margin:auto;
+}
+.blanketimg {
+    height: 400px;
+}
+.footerpad {
+    padding-top:400px;
+}
+.bg {
+    /* The image used */
+    background-image: url("images/background.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
